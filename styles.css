@@ -264,6 +264,7 @@ body {
 .nav-item a {
   text-decoration: none;
   width: 90px;
+  color: black;
 }
 
 .nav-item a:hover {
