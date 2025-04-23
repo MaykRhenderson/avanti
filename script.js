@@ -57,7 +57,7 @@ btnMenuMobile.addEventListener("click", () => {
 departamentoLinks.forEach((link) => {
 	link.addEventListener("click", (e) => {
 		e.preventDefault();
-
+		
 		const isActive = link.classList.contains("toggle-color-button");
 
 		departamentoLinks.forEach((el) => {
@@ -67,11 +67,12 @@ departamentoLinks.forEach((link) => {
 		if (!isActive) {
 			link.classList.add("toggle-color-button");
 		}
-
+		
 		departamentoContainer.classList.toggle("ativo", !isActive);
 	});
 });
 
+// link.style.color = "#005CFF";
 const swiperTop = new Swiper(".swiperTop", {
 	direction: "horizontal",
 	loop: true,

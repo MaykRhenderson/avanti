@@ -259,6 +259,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: 3.1rem;
+  
 }
 
 .nav-item a {
@@ -266,6 +267,12 @@ body {
   width: 90px;
   color: black;
 }
+
+.nav-item a.toggle-color-button {
+  color: #005CFF;
+  font-weight: 700;
+}
+
 
 .nav-item a:hover {
   color: #005CFF;
