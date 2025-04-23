@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="./styles.css" />
   <link rel="icon" href="./imgs/avanti-logo-32px.png" type="image/png" />
@@ -36,7 +37,9 @@
         <button class="btn-search">
           <img class="magnifying-glass" src="./imgs/magnifying-glass.png" alt="Icone lupa">
         </button>
+        <p class="search-result"></p>
       </div>
+
 
       <div class="user-actions">
         <button class="btn-user">
@@ -55,39 +58,40 @@
       </div>
     </div>
 
-    <div class="search-box search-box-mobile">
+    <div class="search-box-mobile">
       <input type="text" placeholder="Digite aqui o que você procura" />
 
-      <button class="btn-search">
-        <img class="magnifying-glass" src="./imgs/magnifying-glass.png" alt="Icone lupa">
+      <button class="btn-search-mobile">
+        <img class="magnifying-glass-mobile" src="./imgs/magnifying-glass.png" alt="Icone lupa">
       </button>
+      <p class="search-result-mobile"></p>
     </div>
 
     <ul class="nav-links">
       <li class="categoria-container">
         <button class="btn-categories" id="abrirMenu2">
-          <img src="./imgs/burger-menu.svg" alt="Icone de menu" class="arrow-down" />
+          <i class="fa-solid fa-bars"></i>
           Todas as Categorias
         </button>
 
         <div class="menu-container" id="menu-container">
           <div class="menu">
             <div class="departamentos">
-              <a href="#">Departamento <img src="./imgs/arrow-blue.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
-              <a href="#">Departamento <img src="./imgs/arrow-black.svg" alt="Seta preta" /></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="#">Departamento <i class="fa-solid fa-chevron-right"></i></a>
             </div>
 
             <div class="categorias" id="categorias">
@@ -140,34 +144,34 @@
             <h2 class="departamento-title">Departamento</h2>
             <div class="departamento-container-4">
               <div class="departamento-coluna">
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
               </div>
               <div class="departamento-coluna">
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
               </div>
               <div class="departamento-coluna">
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
-                <a href="">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
+                <a href="#">Categoria</a>
               </div>
             </div>
           </div>
@@ -183,14 +187,14 @@
       </li>
 
       <li class="nav-item">
-        <a href="">Departamento</a>
-        <a href="">Departamento</a>
-        <a href="">Departamento</a>
-        <a href="">Departamento</a>
-        <a href="">Departamento</a>
-        <a href="">Departamento</a>
-        <a href="">Departamento</a>
-        <a href="">Departamento</a>
+        <a href="#">Departamento</a>
+        <a href="#">Departamento</a>
+        <a href="#">Departamento</a>
+        <a href="#">Departamento</a>
+        <a href="#">Departamento</a>
+        <a href="#">Departamento</a>
+        <a href="#">Departamento</a>
+        <a href="#">Departamento</a>
       </li>
     </ul>
   </nav>

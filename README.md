@@ -6,6 +6,7 @@ Bem-vindo ao repositório do **Avanti**! Este é um projeto desenvolvido em:
 - CSS
 - JavaScript
 - Swiper
+- Fontawesome
 - Markdown
 - Git
 - GitHub
